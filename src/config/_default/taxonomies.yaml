@@ -1,3 +1,8 @@
 # -------------------------------- taxonomies -------------------------------- #
-article: "articles"
-tag: "tags"
+language: 'languages'
+article: 'articles'
+articolo: 'articoli'
+artigo: 'artigos'
+publication: 'publications'
+publicacion: 'publicaciones'
+tag: 'tags'

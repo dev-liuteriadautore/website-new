@@ -6,7 +6,7 @@
   "scripts": {
     "test": "hugo version && hugo --configDir src/config check",
     "hugo:check": "hugo --configDir src/config --renderToMemory & echo ok!",
-    "hugo:serve": "hugo --configDir src/config serve --buildDrafts --disableFastRender",
+    "hugo:serve": "hugo --configDir src/config serve --buildDrafts",
     "hugo:build": "hugo --configDir src/config -e build --cleanDestinationDir -D -F -v & echo Done! The development build is available under /build.",
     "hugo:test": "hugo --configDir src/config -e test --cleanDestinationDir --gc & echo Done! Check the build under /test.",
     "hugo:public": "hugo --configDir src/config -e public --cleanDestinationDir --gc --enableGitInfo --minify & echo Done! Your website is now fully rendered under /public.",
