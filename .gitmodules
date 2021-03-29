@@ -8,3 +8,6 @@ t
 [submodule "themes/axiom"]
 	path = themes/axiom
 	url = https://github.com/marketempower/axiom.git
+[submodule "themes/hugo-chisel"]
+	path = themes/hugo-chisel
+	url = git@arslabora:arslabora/hugo-chisel.git

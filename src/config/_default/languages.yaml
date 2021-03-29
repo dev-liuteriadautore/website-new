@@ -9,22 +9,22 @@ pt:
   languageName: "Portugues"
   locale: "pt-BR"
   weight: 2  
-  description: "Maker and Restorer of Fine String Instruments"
+  description: "Construtor e Restaurador de Finos Instrumentos de Cordas"
   
 it:
   languageName: "Italiano"
   locale: "it-IT"
   weight: 3  
-  description: "Maker and Restorer of Fine String Instruments"
+  description: "Costruttore e Restauratore di Pregiati Strumenti di Corda"
   
 es:
   languageName: "Español"
   locale: "es-ES"
   weight: 4  
-  description: "Maker and Restorer of Fine String Instruments"
+  description: "Fabricante y Restaurador de Selectos Instrumentos de Cuerda"
   
 fr:
   languageName: "Français"
   locale: "fr-FR"
   weight: 5  
-  description: "Maker and Restorer of Fine String Instruments"  
+  description: "Fabricant et Restaurateur d'Instrument à Cordes Supérieur"  
