@@ -1,6 +1,6 @@
 ---
 title: Articles
 slug: articles
-url: /en/articles
+url: /fr/articles
 translationKey: articles
 ---

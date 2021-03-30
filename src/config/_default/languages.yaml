@@ -1,30 +1,30 @@
 # --------------------------- languages definition --------------------------- #
 en:
-  languageName: "English"
-  locale: "en-GB"
-  weight: 1  
-  description: "Maker and Restorer of Fine String Instruments"
-  
+  languageName: 'English'
+  locale: 'en-GB'
+  weight: 1
+  description: 'Maker and Restorer of Fine String Instruments'
+
 pt:
-  languageName: "Portugues"
-  locale: "pt-BR"
-  weight: 2  
-  description: "Construtor e Restaurador de Finos Instrumentos de Cordas"
-  
+  languageName: 'Portugues'
+  locale: 'pt-BR'
+  weight: 2
+  description: 'Construtor e Restaurador de Finos Instrumentos de Cordas'
+
 it:
-  languageName: "Italiano"
-  locale: "it-IT"
-  weight: 3  
-  description: "Costruttore e Restauratore di Pregiati Strumenti di Corda"
-  
+  languageName: 'Italiano'
+  locale: 'it-IT'
+  weight: 3
+  description: 'Costruttore e Restauratore di Pregiati Strumenti di Corda'
+
 es:
-  languageName: "Español"
-  locale: "es-ES"
-  weight: 4  
-  description: "Fabricante y Restaurador de Selectos Instrumentos de Cuerda"
-  
+  languageName: 'Español'
+  locale: 'es-ES'
+  weight: 4
+  description: 'Fabricante y Restaurador de Selectos Instrumentos de Cuerda'
+
 fr:
-  languageName: "Français"
-  locale: "fr-FR"
-  weight: 5  
-  description: "Fabricant et Restaurateur d'Instrument à Cordes Supérieur"  
+  languageName: 'Français'
+  locale: 'fr-FR'
+  weight: 5
+  description: "Fabricant et Restaurateur d'Instrument à Cordes Supérieur"

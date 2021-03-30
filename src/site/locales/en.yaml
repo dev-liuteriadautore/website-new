@@ -1,5 +1,7 @@
 shop:
   other: my-shop
+about:
+  other: about-me
 articles:
   other: articles
 portfolio:
