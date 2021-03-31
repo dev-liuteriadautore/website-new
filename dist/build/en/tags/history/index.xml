@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>history on Liuteria d&#39;Autore</title>
+    <link>http://localhost:1337/en/tags/history/</link>
+    <description>Recent content in history on Liuteria d&#39;Autore</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://localhost:1337/en/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back plates architectures and its variants</title>
+      <link>http://localhost:1337/en/articles/backs-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1337/en/articles/backs-types/</guid>
+      <description>Discover why the back plate comes in so much variations, and how they works!</description>
+    </item>
+    
+    <item>
+      <title>The contrabassetto conception and its roots in luthiery history</title>
+      <link>http://localhost:1337/en/articles/contrabassetto-conception-and-its-roots-in-luthiery-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1337/en/articles/contrabassetto-conception-and-its-roots-in-luthiery-history/</guid>
+      <description>I&amp;rsquo;ll explain how I devised my contrabassettos, and their close relationship with old violones</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s really new about the detachable necks?</title>
+      <link>http://localhost:1337/en/articles/detachable-necks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1337/en/articles/detachable-necks/</guid>
+      <description>A modern feature? Or an ingenious, old and tried solution?</description>
+    </item>
+    
+  </channel>
+</rss>
