@@ -6,13 +6,13 @@
   "scripts": {
     "test": "hugo version && hugo --configDir src/config check",
     "hugo:check": "hugo --configDir src/config --renderToMemory & echo ok!",
-    "hugo:serve": "hugo --configDir src/config serve --buildDrafts --disableFastRender",
+    "hugo:serve": "hugo --configDir src/config serve --buildDrafts --path-warnings",
     "hugo:build": "hugo --configDir src/config -e build --cleanDestinationDir -D -F -v & echo Done! The development build is available under /build.",
     "hugo:test": "hugo --configDir src/config -e test --cleanDestinationDir --gc & echo Done! Check the build under /test.",
     "hugo:public": "hugo --configDir src/config -e public --cleanDestinationDir --gc --enableGitInfo --minify & echo Done! Your website is now fully rendered under /public.",
-    "clean:build": "rimraf build/*",
-    "clean:test": "rimraf test/*",
-    "clean:public": "rimraf public/*",
+    "clean:build": "rimraf dist/build/*",
+    "clean:test": "rimraf dist/test/*",
+    "clean:public": "rimraf dist/public/*",
     "clean:all": "rimraf resources/* & npm run clean:build & npm run clean:test & npm run clean:public",
     "h:s": "npm run hugo:serve",
     "h:b": "npm run hugo:build",
@@ -22,12 +22,22 @@
     "c:t": "npm run clean:test",
     "c:p": "npm run clean:public",
     "c:a": "npm run clean:all",
-    "deploy": "echo 'commit the production build and push to github. Or any other publishing command...'"    
+    "deploy": "echo 'commit the production build and push to github. Or any other publishing command...'"
   },
   "author": "Andrea Spada",
   "license": "ISC",
   "devDependencies": {
     "hugo-extended": "^0.82.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^6.1.0",
+    "@vitalets/google-translate-api": "^5.1.0",
+    "autoprefixer": "^10.2.5",
+    "commander": "^7.2.0",
+    "dotenv": "^8.2.0",
+    "humanize-string": "^2.1.0",
+    "nodemon": "^2.0.7",
+    "tunnel": "^0.0.6"
   }
 }

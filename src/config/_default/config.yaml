@@ -1,20 +1,37 @@
-# ==============================================================================
-# Configuration
-# ==============================================================================
-title: "A great title!"
-theme: ""
+# ---------------------------------------------------------------------------- #
+#                                 Configuration                                #
+# ---------------------------------------------------------------------------- #
+author: "Andrea Spada"
+theme: "hugo-chisel"
+title: "Liuteria d'Autore"
 
-# ==============================================================================
-# Locales
-# ==============================================================================
+# ---------------------------------------------------------------------------- #
+#                                    Locales                                   #
+# ---------------------------------------------------------------------------- #
 defaultContentLanguage: "en"
 defaultContentLanguageInSubDir: true
-enableMissingTranslationPlaceholders: false
+enableMissingTranslationPlaceholders: true
 hasCJKLanguage: false
 removePathAccents: true
 
-# ==============================================================================
-# Hugo Built-in Features
-# ==============================================================================
-disableKinds:
+# ---------------------------------------------------------------------------- #
+#                            Hugo Built-in Features                            #
+# ---------------------------------------------------------------------------- #
+Hugo Built-in FeaturesdisableKinds:
 enableInlineShortcodes: true
+
+# ---------------------------------------------------------------------------- #
+#                                    render                                    #
+# ---------------------------------------------------------------------------- #
+canonifyURLs: false
+uglyurls: false
+disableAliases: false
+disableHugoGeneratorInject: false
+disableLiveReload: false
+enableEmoji: true
+enableGitInfo: false
+ignoreCache: true
+ignoreFiles: []
+metaDataFormat: "yaml"
+verbose: true
+watch: true

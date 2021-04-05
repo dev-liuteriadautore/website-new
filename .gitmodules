@@ -1,0 +1,13 @@
+[submodule "themes/chisel"]
+	path = themes/chisel
+	url = https://github.com/spadino/hugo-chisel.git
+t
+[submodule "themes/bento"]
+	path = themes/bento
+	url = https://github.com/leonardofaria/bento.git
+[submodule "themes/axiom"]
+	path = themes/axiom
+	url = https://github.com/marketempower/axiom.git
+[submodule "themes/hugo-chisel"]
+	path = themes/hugo-chisel
+	url = git@arslabora:arslabora/hugo-chisel.git
